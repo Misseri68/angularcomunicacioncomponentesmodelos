@@ -1,0 +1,9 @@
+<div>
+    <h1>Padre Deportes</h1>
+    <h3 *ngIf="favorito">Favorito: {{favorito}}</h3>
+    <div *ngFor="let deporte of deportes">
+        <app-hijo-deportes [sport]="deporte" 
+            (seleccionarFavHijo)="seleccionarFavPadre($event)">
+        </app-hijo-deportes>
+    </div>
+</div>

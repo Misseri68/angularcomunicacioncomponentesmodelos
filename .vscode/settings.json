@@ -1,0 +1,8 @@
+{
+    "files.exclude": {
+        "src/main.ts": true,
+        "src/styles.css": true,
+        "src/app/components/listaproductos": true,
+        "**/coches": true
+    }
+}
